@@ -19,12 +19,22 @@ end
 
 def literal_aoh
   new_array = 
+<<<<<<< HEAD
   { :name=> "Don Gately", :occupation=> "Live-in Staff" },
   { :name=>  "Joelle van Dyne", :occupation=> "Radio Personality" },
   { :name=>  "Pat Monteseian", :occupation=> "Staff" },
   { :name=>  "Kate Gompert", :occupation=> "None" },
   { :name=>  "Bruce Green", :occupation=> "Fan of Mildred" }
   new_array
+=======
+  { name:  "Don Gately", occupation: "Live-in Staff" },
+  { name:  "Joelle van Dyne", occupation: "Radio Personality" },
+  { name:  "Pat Monteseian", occupation: "Staff" },
+  { name:  "Kate Gompert", occupation: "None" },
+  { name:  "Bruce Green", occupation: "Fan of Mildred" }
+  liter_array = %w(new_array)
+  liter_array
+>>>>>>> 6c02dbf110a1854dabb46c5647bc783852da3354
   # Using Array literal syntax only, build a nested array that uses the data in
   # held in the constants
 end
